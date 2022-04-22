@@ -13,3 +13,9 @@ test "viaje con Lucia reemplazando a Mariela y Melina a Ludmila" {
 	assert.equals(150 ,  lucia.precioViaje(melina,10))
 
 }
+
+test "viaje para Ana Maria con selección de remiseras entre Roxana y Juana" {
+	oficina.asignarRemiseras(roxana, juana)
+	assert.equals(juana ,  oficina.remiseraElegidaParaViaje(anaMaria, 10))
+
+}
