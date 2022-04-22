@@ -1,0 +1,15 @@
+import remiseras.*
+test "viajesConJuana" {
+	assert.equals(100 , juana.precioViaje(ludmila , 2))
+
+}
+
+test "viajeConRoxana" {
+	assert.equals(180 ,  roxana.precioViaje(ludmila,10))
+
+}
+test "viaje con Lucia reemplazando a Mariela y Melina a Ludmila" {
+	lucia.reemplazarPor(mariela)
+	assert.equals(150 ,  lucia.precioViaje(melina,10))
+
+}
