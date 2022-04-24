@@ -45,7 +45,7 @@ object melina {
 	method clientaActual(){
 		return empleadora 
 	}
-	method cambiarEmpleadora(clienta){
+	method trabajarPara(clienta){
 		empleadora = clienta
 		return empleadora
 	}
@@ -110,7 +110,7 @@ object lucia {
 	method reemplazoActual(){
 		return remiseraReemplazada
 	}
-	method reemplazarPor(remisera){
+	method reemplazarA(remisera){
 		remiseraReemplazada = remisera
 		return remiseraReemplazada
 	}
