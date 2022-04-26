@@ -1,4 +1,8 @@
 import remiseras.*
+import oficinaDeLaCooperativa.*
+import clientas.*
+
+
 //Viajes de 10 km con las distintas remiseras de la cooperativa.
 
 test " Viaje de 10 km con la remisera Roxana(Ana María está 
